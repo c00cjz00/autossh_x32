@@ -11,3 +11,5 @@
 # $vbScript="yes"; //yes or no  此項功能當填寫no時候, 可mask輸入密碼
 $waitFor30Seconds="no";  //yes or no 此項功能當填寫no時候, 將直接登入, 但不保證可順利登入
 
+
+
