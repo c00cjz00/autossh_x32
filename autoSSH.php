@@ -11,7 +11,7 @@ if (($user=="") || !isset($user) || ($otpKey=="") || !isset($otpKey) ){
   . addslashes($prompt)
   . '", "", "Edit config.php, and type ACCOUNT and OTP key"))');
  $command = "cscript //nologo " . escapeshellarg($vbscript);
- $password = rtrim(shell_exec($command));	
+ $password2 = rtrim(shell_exec($command));	
  exit();
 }
 if (!isset($passwd) || ($passwd=="")) {
