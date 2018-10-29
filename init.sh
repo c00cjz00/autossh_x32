@@ -4,7 +4,7 @@ git config --global user.email summerhill001@gmail.com
 #git pull
 git checkout master
 #git rm init.sh~ config.php~ README.md~
-#git rm -r FileZillaPortable
+git rm -r run_x32.bat
 git add *
 git commit -m "init"
 # 上傳至遠端
